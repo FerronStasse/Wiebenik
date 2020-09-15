@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+	background-color: #f3f3f3;
+
+}
+
+.navigatiebox {
+	border: 1px solid red;
+	margin-bottom: 100px;
+}
+
+#container {
+	width: 670px;
+	padding: 0px 10px;
+	margin: 0px auto;
+	border: 1px solid blue;
+}
+
+.btn {
+	width: 180px;
+	display: inline-block;
+	margin: 5% 20px;
+	padding: 20px 0px;
+	text-align: center;
+	font-family: 'montserrat-Regular';
+	text-decoration: none;
+	position: center;
+}
+
+#navigatie{
+	border: 4px solid #01dbdf;
+	width: 172px;
+	padding: 16px 0px;
+	color: #01dbdf;
+}
+
+.profile{
+	position: center;
+	margin-left: 590px;
+	top: 100px;
+	left: 100px;
+	width: 750px;
+	display: flex;
+	box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08)
+}
+
+.profile .left{
+	width: 35%;
+	background: linear-gradient(to right, #01a9ac, #01dbdf);
+	padding: 30px 25px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+.profile .left img{
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.profile .left h4{
+	margin-bottom: 10px;
+}
+
+.profile .left p{
+	font-size: 15px;
+}
+
+.profile .right{
+	width: 60%
+	background: #fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 30px 25px;
+}
+
+.profile .right .info,
+.profile .right .projects{
+	margin-bottom: 3px;
+}
+
+.profile .right .info h3,
+.profile .right .projects h3{
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #353c4e;
+	color: #353c4e;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.profile .right .info_data,
+.profile .right .projects_data{
+	display: flex;
+	justify-content:  space-between;
+}
+
+.profile .right .info_data .data,
+.profile .right .projects_data .data{
+	width: 35%;
+}
+
+.profile .right .info_data .data h4,
+.profile .right .projects_data .data h4{
+	color: #353c4e;
+	margin-bottom: 5px
+}
+
+.profile .right .info_data .data p,
+.profile .right .projects_data .data p{
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #919aa3;
+}
+
+.profile .social_media ul{
+	display: flex;
+}
+
+.profile .social_media ul li{
+	width: 45px;
+	height: 45px;
+	background: linear-gradient(to right, #01dbdf, #01dbdf);
+	margin-right: 10px;
+	border-radius: 4px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.profile .social_media ul li a{
+	color: #fff;
+	display: block;
+	font-size: 18px;
+}
